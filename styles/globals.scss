@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat&display=swap");
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Montserrat", Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+		Droid Sans, Helvetica Neue, sans-serif;
+	position: relative; //to set footer on bottom of page
+	background: #52c234; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to bottom,
+		#ffa200,
+		#a187ff,
+		#ffb464,
+		#5d8a14,
+		#081d00
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to bottom,
+		#ffa200,
+		#a187ff,
+		#ffb464,
+		#5d8a14,
+		#081d00
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.divisionBanner {
+	height: 15vh;
+	opacity: 0;
+}
+
+.element {
+	position: absolute;
+	height: 85vh;
+	.textContainer {
+		position: absolute;
+		top: 45%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: whitesmoke;
+		font-size: 2rem;
+		text-align: center;
+		width: 90%;
+		text-shadow: 3px 4px #333;
+	}
+}
+
+.footer {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.2);
+}
+// ------ tablets and desktop ------------
+@media screen and (min-width: 600px) {
+	.element {
+		.textContainer {
+			top: 45%;
+			left: 15%;
+			transform: translateY(-50%);
+			font-size: 2.5rem;
+			text-align: left;
+		}
+	}
+}
