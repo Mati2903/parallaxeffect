@@ -16,35 +16,51 @@ export default function Home() {
 			</Head>
 
 			<ParallaxComp
-				className="parallax-parent"
+				loader="./images/DJI_0210-loader.jpg"
 				imgUrl="./images/DJI_0210.JPG"
 				header="Hello"
 			/>
 			<div className="divisionBanner"></div>
 
-			<ParallaxComp imgUrl="./images/JXWEE9121.JPG" header="relax" />
+			<ParallaxComp
+				loader="./images/JXWEE9121-loader.jpg"
+				imgUrl="./images/JXWEE9121.JPG"
+				header="relax"
+			/>
 			<div className="divisionBanner"></div>
 			<ParallaxComp
+				loader="./images/ITKYE2655-loader.jpg"
 				imgUrl="./images/ITKYE2655.JPG"
 				header="take a deep breath"
 			/>
 			<div className="divisionBanner"></div>
 			<ParallaxComp
+				loader="./images/YETEE7805-loader.jpg"
 				imgUrl="./images/YETEE7805.JPG"
 				speed={-15}
 				header="and look on earth"
 			/>
 			<div className="divisionBanner"></div>
-			<ParallaxComp imgUrl="./images/WVTY1930.JPG" header="from above" />
-			<div className="divisionBanner"></div>
-			<ParallaxComp imgUrl="./images/HXXY5174.JPG" header="and then" />
+			<ParallaxComp
+				loader="./images//WVTY1930-loader.jpg"
+				imgUrl="./images/WVTY1930.JPG"
+				header="from above"
+			/>
 			<div className="divisionBanner"></div>
 			<ParallaxComp
+				loader="./images/HXXY5174-loader.jpg"
+				imgUrl="./images/HXXY5174.JPG"
+				header="and then"
+			/>
+			<div className="divisionBanner"></div>
+			<ParallaxComp
+				loader="./images/IMG_E3725-loader.jpg"
 				imgUrl="./images/IMG_E3725.JPG"
 				header="pay close attention"
 			/>
 			<div className="divisionBanner"></div>
 			<ParallaxComp
+				loader="./images/IMG_E3913-loader.jpg"
 				imgUrl="./images/IMG_E3913.JPG"
 				header="to details"
 				mystyle={{ top: "55%" }}
